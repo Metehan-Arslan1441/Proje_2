@@ -1,0 +1,52 @@
+﻿@model IEnumerable< proje1.Models.Domain.Person>
+
+<div class="mt-2" style="width:50%">
+    <div class="row">
+        <h2>ekleSayfa</h2>
+        <div class="col-md-4 m-3">
+            <a href="/Home/ekleSayfa" class="btn btn-primary">ekleSayfa</a>
+        </div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th> Adı</th>
+                    <th>soyadı</th>
+                    <th>yaş</th>
+                    <th>resim</th>
+                    <th>telefon</th>
+                </tr>
+
+                @foreach (var person in Model)
+                {
+                    <tr>
+                        <td>
+                            @person.Ad
+                        </td>
+                        <td>@person.Soyad</td>
+                        <td>
+                        <td>
+                                @person.yaş
+                        </td>
+                        <td>@person.telefon</td>
+                        <td><img src="~/resim/@person.resim" width="100px" height="100px" /></td>
+                        <td>
+                            <a class="btn btn-success" href="/Home/Guncelle?id=@person.Id">Güncelle</a>
+                            <a class="btn btn-danger" href="/Home/Deletekayıt?id=@person.Id">sil</a>
+
+
+
+
+                           
+                        </td>
+                    </tr>
+                }
+               
+            </thead>
+        </table>
+        <a class="btn btn-success" href="/Home/listele">ada göre</a>
+        <br />
+        <a class="btn btn-success" href="/Home/zdenaya">zdenaya  göre</a>
+        <br />
+        <a class="btn btn-success" href="/Home/yaşagore">yaşa  göre</a>
+    </div>
+</div>

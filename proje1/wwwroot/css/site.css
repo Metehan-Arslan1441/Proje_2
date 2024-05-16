@@ -1,0 +1,271 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.card {
+    background-color: navajowhite;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+.yarra {
+    background-color: navajowhite;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 390px;
+}
+
+
+.sucuk {
+    background-color: navajowhite;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 770px;
+}
+
+.adembadem {
+    background-color: navajowhite;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+.mangal {
+    background-color: navajowhite;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 0px;
+}
+
+
+.kanat {
+    background-color: navajowhite;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 390px;
+}
+
+.sus {
+    background-color: navajowhite;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 770px;
+}
+
+.butt {
+    position: absolute;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.button{
+    position:absolute;
+    background-color:red;
+}
+
+.tel{
+  
+    width:200px;
+    height:70px;
+    position:absolute;
+    margin-top:40px;
+    margin-left:20px;
+}
+
+    .tel:hover {
+        background-color: gray;
+        position:absolute;
+    }
+
+
+.tel1 {
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 430px;
+}
+
+    .tel1:hover {
+        background-color: gray;
+        position: absolute;
+    }
+
+
+.tel2 {
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 840px;
+}
+
+    .tel2:hover {
+        background-color: gray;
+        position: absolute;
+    }
+
+
+.card {
+    width: 400px;
+    height: 450px;
+    transition-duration: 1s;
+    box-shadow: 0 9px 17px 0 rgba(0,0,0,2),0 7px 21px 0 rgba(0,0,0,1);
+    background-color: lightgray;
+}
+
+    .card:hover {
+        box-shadow: 0 3px 5px 0 rgba(0,0,0,1),0 4px 5px 0 rgba(0,0,0,1);
+    }
+
+
+.card a {
+    background-color: red;
+}
+
+.card2 {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 400px;
+    width: 400px;
+    height: 450px;
+    transition-duration: 1s;
+    box-shadow: 0 9px 17px 0 rgba(0,0,0,2),0 7px 21px 0 rgba(0,0,0,1);
+    background-color: lightgray;
+}
+
+    .card2:hover {
+        box-shadow: 0 3px 5px 0 rgba(0,0,0,1),0 4px 5px 0 rgba(0,0,0,1);
+    }
+
+    .card2 a{
+        background-color:red;
+    }
+
+
+
+    .card3 {
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 800px;
+        width: 400px;
+        height: 450px;
+        transition-duration: 1s;
+        box-shadow: 0 9px 17px 0 rgba(0,0,0,2),0 7px 21px 0 rgba(0,0,0,1);
+        background-color: lightgray;
+    }
+
+    .card3:hover {
+        box-shadow: 0 3px 5px 0 rgba(0,0,0,1),0 4px 5px 0 rgba(0,0,0,1);
+    }
+
+.card3 a {
+    background-color: red;
+}
+
+.card4 {
+    position: absolute;
+    margin-top: 550px;
+    width: 400px;
+    height: 450px;
+    transition-duration: 1s;
+    box-shadow: 0 9px 17px 0 rgba(0,0,0,2),0 7px 21px 0 rgba(0,0,0,1);
+    background-color: lightgray;
+}
+
+    .card4:hover {
+        box-shadow: 0 3px 5px 0 rgba(0,0,0,1),0 4px 5px 0 rgba(0,0,0,1);
+    }
+
+.card4 a {
+    background-color: red;
+}
+.card5 {
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 400px;
+    width: 400px;
+    height: 450px;
+    transition-duration: 1s;
+    box-shadow: 0 9px 17px 0 rgba(0,0,0,2),0 7px 21px 0 rgba(0,0,0,1);
+    background-color: lightgray;
+}
+.card5 a {
+    background-color: red;
+}
+    .card5:hover {
+        box-shadow: 0 3px 5px 0 rgba(0,0,0,1),0 4px 5px 0 rgba(0,0,0,1);
+    }
+
+
+.card6 {
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 800px;
+    width: 400px;
+    height: 450px;
+    transition-duration: 1s;
+    box-shadow: 0 9px 17px 0 rgba(0,0,0,2),0 7px 21px 0 rgba(0,0,0,1);
+    background-color: lightgray;
+}
+
+    .card6:hover {
+        box-shadow: 0 3px 5px 0 rgba(0,0,0,1),0 4px 5px 0 rgba(0,0,0,1);
+    }
+
+.card6 a {
+    background-color: red;
+}
+
+
+.form asp-action a:hover {
+    background-color: red;
+}
+
+.dsadas a {
+    background-color:red;
+}
